@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>God bless us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <header>
+            <h1>Task Manager</h1>
+        </header>
+        <div class="task-board">
+            <div class="task-column">
+                <div class="task-list">
+                    <input type="text" id="taskInput" placeholder="Ingresar una tarea">
+                    <button id="addTaskButton">Añadir tarea</button>
+                </div>
+                <div class="task-do">
+                    <p>Por Hacer</p>
+                    <ul id="doList" class="task-list"></ul>
+                </div>
+            </div>
+            <div class="task-column">
+                <div class="task-doing">
+                    <p>Haciendo</p>
+                    <ul id="doingList" class="task-list"></ul>
+                </div>
+            </div>
+            <div class="task-column">
+                <div class="task-done">
+                    <p>Hecho</p>
+                    <ul id="doneList" class="task-list"></ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+</body>
+<footer><script src="script.js"></script></footer>
+</html>
